@@ -2,5 +2,3 @@
 Dockerfile
 node_modules
 .gitignore
-mongo_data
-redis_data
