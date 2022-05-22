@@ -7,6 +7,6 @@ ENV DEBUG=todo-backend:*
 USER node
 CMD ["npm", "start"]
 
-FROM nginx:1.20-alpine
+FROM nginx:stable-alpine
 COPY --from=build /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
